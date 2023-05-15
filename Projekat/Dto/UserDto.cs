@@ -17,5 +17,7 @@ namespace Projekat.Dto
 		public string Address { get; set; }
 		public UserType UserType { get; set; }
 		public string ImagePath { get; set; }
+
+		public bool Approved { get; set; }
 	}
 }
